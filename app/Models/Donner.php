@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Donner extends Model
+{
+    use HasFactory;
+    protected $table ='donners';
+    protected $guarded =['id'];
+}
